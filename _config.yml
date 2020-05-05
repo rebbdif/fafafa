@@ -1,8 +1,8 @@
 utc: "2020-05-18 0:00:00 +0300" #Required. The start time of the event. Best to use UTC format, but may work in other date formats too.
-name: "и" #Required. The human-readable name of the event
+name: " " #Required. The human-readable name of the event
 logo: logo.png #Required. logo for the event. replace this logo in the project or add a new file and change the value of this variable
-description: "с"
-externalLink: "зф" #Required. link to the main event page. this could be a webpage, a facebook event, an eventbrite page, where ever the main webpage is for your event
+description: " "
+externalLink: " " #Required. link to the main event page. this could be a webpage, a facebook event, an eventbrite page, where ever the main webpage is for your event
 url: " " #(Optional) the full URL for this countdown page. This is neccesary for facebook share previews
 colors: #(Optional)
   background: "#FFF" #color of the background of the page
