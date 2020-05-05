@@ -2,6 +2,15 @@
 ---
 
 <!DOCTYPE html>
+<style>
+    #timer {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	text-align: center;
+	line-height: 90vh;
+	font-size: 240px;
+    }
+</style>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -27,31 +36,10 @@
 
   <body>
 
-<!--     <div class="row">
-      <div class="col-sm-12 text-center">
-				<h1 class="background-highlight">{{site.name}}</h1>
-        <h2 class="background-highlight">countdown</h2>
-	       <a href="{{site.externalLink}}"><img src="{{site.logo}}" style="width:40%"/></a>
-      </div> -->
+    <div class="row">
+	<div id="timer"></div>
+<!--       <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div> -->
     </div> <!-- /row -->
-
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
-    </div> <!-- /row -->
-
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
-      </div>
-    </div>
-
-    {% if site.facebookEventLink %}
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <a href="{{site.facebookEventLink}}">RSVP on facebook</a>
-      </div>
-    </div>
-    {% endif %}
 
     <!-- javascript includes
     ================================================== -->
