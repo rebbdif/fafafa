@@ -11,8 +11,8 @@ body {
   font-size:2em;
 }
 .hasCountdown {
-	background:none;
-	border:none;
+	background:{{site.colors.secondary}};
+	border:{{site.colors.secondary}};
 }
 
 h1 {
