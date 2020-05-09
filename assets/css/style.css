@@ -11,7 +11,7 @@ body {
   font-size:2em;
 }
 .hasCountdown {
-	background:#7CFC00;
+	background:{{#7CFC00}};
 	border:{{site.colors.secondary}};
 }
 
@@ -56,5 +56,5 @@ h1 {
 
 }
 .background-highlight {
-  background-color:#7CFC00;
+	background-color:{{#7CFC00}};
 }
